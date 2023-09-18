@@ -1,0 +1,209 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+.entete{
+background-image:url("eae77565a4c15f5b76d0d5654876672afaa602da_46_2022_Categorie_Enfant_Noel_Flashy1_Cover_Pull_Gauche_min.webp");
+	width: 500px;
+	height: 500px;
+	margin-top: 50px;
+}
+.entete h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-top: 230px;
+	font-size: 3em;
+	font-weight: bold;
+	padding-left:20px;	
+	color: white;
+}
+.entete h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-left:70px;
+	color: white;
+}
+.entete1{
+	background-image: url(" -50%.png");
+	width: 500px;
+	height: 500px;
+	margin-top:50px;
+}
+.entete2{
+	background-image:url( "c4927a63472d32a2942080173552d3525ec670b7_46_2022_Categorie_Enfant_Noel_Flashy1_Cover_Pull_Droite_min.webp");
+	width: 500px;
+	height: 500px;
+	margin-top:50px;
+}
+.entete2 h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-top: 230px;
+	font-size: 3em;
+	font-weight: bold;
+	padding-left:30px;	
+	color: white;
+}
+.entete2 h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-left: 70px;
+	color: white;
+}
+.annonce{
+	display: flex;
+	margin-left:8px;
+}
+.produits{
+	border: 1px solid #B4AFAF ;
+	width:255px;
+	text-align: center;
+	margin-left: 30px;
+}
+.product{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.name{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 1.4em;
+	padding-top: 10px;
+}
+.price{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.5em;
+	text-decoration:line-through;
+	padding-right: 10px;	
+	padding-left: 10px;
+}
+.newprice{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.5em;
+}
+.align{
+	display: flex;
+}
+.artist{
+	background-color:#70C1DD;
+	text-align: center;
+	width: 255px;
+	height: 30px;
+}
+.artist p{
+	padding-top: 5px;
+	color: white;
+	font-weight: bold;
+}
+.rang1{
+	display:flex;
+}
+.titre h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align:center;
+	font-size: 3.5em;
+	margin-bottom:30px;
+	margin-top:70px;
+}
+.ann2{
+	width: 600px;
+	height: 600px;
+	background-image: url( "wepik-photo-mode-20221020-03110.png");
+	margin-left: 5px;
+}
+.ann2 h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3em;
+	padding-top: 250px;
+	text-align: center;
+	color: white;
+}
+.ann1 h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.7em;
+	padding-top: 250px;
+	text-align: center;
+	color: white;
+}
+.ann1{
+	width: 600px;
+	height: 600px;
+	background-image: url( "wepik-photo-mode-20221020-03153.png");
+}
+.container {
+  position : relative;
+  width : 1100px;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-warp : warp;
+  padding : 25px;
+	padding-top: 80px;
+}
+
+.container .card {
+  position: relative;
+  max-width : 300px;
+  height : 350px;  
+  background-color : #fff;
+  margin : 30px 10px;
+  padding : 20px 15px;
+  
+  display : flex;
+  flex-direction : column;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+  transition : 0.3s ease-in-out;
+  border-radius : 15px;
+}
+.container .card:hover {
+  height : 400px;    
+}
+
+
+.container .card .image {
+  position : relative;
+  width : 260px;
+  height : 260px;
+  
+  top : -40%;
+  left: 8px;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+  z-index : 1;
+}
+
+.container .card .image img {
+  max-width : 100%;
+  border-radius : 15px;
+}
+
+.container .card .content {
+  position : relative;
+  top : -100px;
+  padding : 10px 15px;
+  color : #111;
+  text-align : center;
+  
+  visibility : hidden;
+  opacity : 0;
+  transition : 0.3s ease-in-out;
+    
+}
+.image img{
+	width:300Px;
+	height: 300px;	
+}
+.container .card:hover .content {
+   margin-top : 30px;
+   visibility : visible;
+   opacity : 1;
+   transition-delay: 0.2s;
+  
+}

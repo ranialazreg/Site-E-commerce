@@ -1,0 +1,281 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+.produits{
+	border: 1px solid #B4AFAF ;
+	width:255px;
+	text-align: center;
+	margin-left: 30px;
+}
+.product{
+	margin-bottom: 50px;
+}
+.name{
+	padding-top:20px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 1.4em;
+}
+.price{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.5em;
+}
+.artist{
+	border:1px solid black;
+	color: white;
+	background-color: black;
+	text-align: center;
+	width: 255px;
+	height: 50px;
+	border-radius: 10px;
+	margin-top: 8px;
+}
+.service{
+	display:flex;
+}
+.img{ 
+	padding-top:40px;
+	width:600px;
+	height:250px;
+	text-align: center;
+	background-color: #D2BCBC;
+	margin-top: 20px;
+}
+.img h3{
+font-family: 'Satisfy', cursive;
+	font-size:2.5em;
+}
+.img p{
+	font-family: 'Signika', sans-serif;
+	font-weight: bold;
+	text-align:center;
+	padding-right:30px;
+	padding-left: 30px;
+}
+.imgg{
+	width: 600px;
+	height: 350px;
+	background-image: url(  "wepik-photo-mode-20221019-1478.png");
+}
+.imgg h3{
+	font-family: 'Signika', sans-serif;
+	text-align: center;
+	color: whitesmoke;
+	font-size: 3em;
+	padding-top: 150px;
+}
+.annonce{
+	display: flex;
+	margin-left:150px;
+}
+.imgg1{
+	width: 600px;
+	height: 350px;
+	background-image: url(  "wepik-photo-mode-20221019-1482.png");
+}
+.imgg1 h2{
+	font-family: 'Signika', sans-serif;
+	text-align: center;
+	color: whitesmoke;
+	font-size: 3em;
+	padding-top: 150px;
+}
+.test{
+	margin-right: 15px;
+	margin-top: 30px;
+
+}
+.img2 h3{
+font-family: 'Satisfy', cursive;
+	font-size:2.5em;
+}
+.img2 p{
+	font-family: 'Signika', sans-serif;
+	font-weight: bold;
+	text-align:center;
+	padding-right:30px;
+	padding-left: 30px;
+}
+.img2{ 
+	margin-top: 20px;
+	padding-top:20px;
+	width:600px;
+	height: 250px;
+	text-align: center;
+	background-color:#D2BCBC;
+}
+.ann{
+	width: 1215px;
+	background-image: url( "wepik-photo-mode-20221019-14358.png");
+	margin-left:150px;
+	height: 600px; 
+}
+.ann h3{
+	font-family: 'Raleway', sans-serif;
+	padding-top: 10px;
+	padding-left:120px;
+	font-weight: bold;
+}
+.ann h2{
+	font-family: 'Raleway', sans-serif;
+	padding-top: 200px;
+	padding-right:700px;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+.ann button{
+	margin-top: 20px;
+	margin-left: 130px;
+	border:none;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	background-color: white;
+}
+.ann1{
+	width: 600px;
+	height: 400px;
+	background-image: url( "wepik-photo-mode-20221019-2214.png");
+}
+.ann2{
+	width: 600px;
+	height: 400px;
+	background-image: url( "wepik-photo-mode-20221019-225.png");
+	margin-left: 15px;
+}
+.ann1 h2{
+	font-family: 'Merriweather', serif;
+	font-size: 3em;
+	padding-top: 150px;
+	text-align: center;
+	color: whitesmoke;
+}
+.ann2 h2{
+	font-family: 'Merriweather', serif;
+	font-size: 3em;
+	padding-top: 150px;
+	color: white;
+	text-align: center;
+}
+.promotion{
+	margin-top: 20px;
+	display: flex;
+	margin-left: 150px;
+}
+.ann3{
+	width: 1215px;
+	background-image: url(  "wepik-photo-mode-20221020-04549.png");
+	margin-left:150px;
+	height: 600px; 
+}
+.ann3 h3{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+.ann3 h2{
+	font-family: 'Raleway', sans-serif;
+	padding-top: 250px;
+	font-size: 4.5em;
+	font-weight: bold;
+	color: white;
+}
+.ann3 button{
+	margin-top: 30px;
+	margin-left:500px;
+	border:none;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	background-color: white;
+}
+h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align:center;
+	font-size: 3.5em;
+	margin-bottom:50px;
+	margin-top:50px;
+}
+#log{
+font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	color: whitesmoke;
+	font-weight: bold
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.foot{
+	margin-top: 50px;
+	background-color: black;
+}
+.col-md-12 {
+	padding-top: 20px;
+	color: black;
+}
+.container {
+  position : relative;
+  width : 1100px;
+  padding : 25px;
+ padding-top: 80px;
+}
+
+.container .card {
+  position: relative;
+  max-width : 300px;
+  height : 350px;  
+  background-color : #fff;
+  margin : 30px 10px;
+  padding : 20px 15px;
+  flex-direction : column;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+  transition : 0.3s;
+  border-radius : 15px;
+}
+.container .card:hover {
+  height : 450px; 
+}
+
+
+.container .card .image {
+  position : relative;
+  width : 260px;
+  height : 260px;
+  top : -40%;
+  left: 8px;
+}
+
+.container .card .image img {
+  max-width : 100%;
+  border-radius : 15px;
+}
+
+.container .card .content {
+  position : relative;
+  top : -100px;
+  padding : 10px 15px;
+  color : #111;
+  text-align : center;
+  opacity : 0;
+  transition : 0.3s ;
+    
+}
+.image img{
+	width:300Px;
+	height: 300px;	
+}
+.container .card:hover .content {
+   margin-top : 30px;
+   opacity : 1;
+   transition-delay: 0.2s;
+  
+}
